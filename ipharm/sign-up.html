@@ -7,7 +7,13 @@
     <link rel="stylesheet" type="text/css" href="css/login-style.css"/>
     <title>iPharm | Sign In</title>
     <style>
-        h2 {text-align: center;}
+        h2 {text-align: center;
+            color: seagreen;
+        }
+
+        fieldset p {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -17,13 +23,13 @@
     <!-- <h1>Sign in</h1> -->
     <div id="wrapper">
         <form name="myForm" method="post">
-            <fieldset id="sign-up">
+            <fieldset id="signup">
                 <!-- <legend>Week One: Task 3</legend> -->
                 <h2>Sign Up</h2>
-                <p><label for="Email"></label><br><input size="30" name="FirstName" id="FirstName" placeholder="First Name"></p>
-                <p><label for="Email"></label><br><input size="30" name="LastName" id="LastName" placeholder="Last Name"></p>
-                <p><label for="Email"></label><br><input size="30" name="Email" id="Email" placeholder="Email"></p>
-                <p><label for="Password"></label><br><input size="30" type="password" name="Password" id="Password" placeholder="Password"></p>
+                <p><label for="Email"></label><input size="30" name="FirstName" id="FirstName" placeholder="First Name"></p>
+                <p><label for="Email"></label><input size="30" name="LastName" id="LastName" placeholder="Last Name"></p>
+                <p><label for="Email"></label><input size="30" name="Email" id="Email" placeholder="Email"></p>
+                <p><label for="Password"></label><input size="30" type="password" name="Password" id="Password" placeholder="Password"></p>
                 <p><input  class="shift" type="submit" onsubmit="" value="Sign Up"> <input type="reset" value="Reset Form"></p>
                 <p>Already have an account?<a href="sign-in.html">Sign in</a></p>
             </fieldset>
