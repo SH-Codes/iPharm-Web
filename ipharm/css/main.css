@@ -4,11 +4,24 @@ body {
     padding: 0;
 }
 
-#nav {
+#banner{
     width: 100%;
-    height: 6em;
-    margin-top: -1em;
+    height: 12em;
+    margin-top: -2em;
     background-color: seagreen;
+    position: fixed;
+}
+
+a img {
+    margin-left: 2em;
+    margin-top: 3.5em;
+}
+
+#nav {
+    /* background-color: white; */
+    height: 6em;
+    border-top: 1px solid white;
+    margin-top: 0.5em;
 }
 
 nav ul {
