@@ -31,6 +31,16 @@ input.search::placeholder{
     font-size: 1.5em;
     margin-top: 0.5em;
 }
+
+button.searchbtn {
+    width: 6em;
+    height: 3.1em;
+    color: white;
+    background-color: seagreen;
+    border: 3px solid  seagreen;
+   cursor: pointer;
+
+}
  
 a img {
     margin-left: 2em;
@@ -59,18 +69,20 @@ nav ul li {
 }
 
 nav ul li a {
+    color: white;
     text-decoration: none;
     display: block;
-    width: 8em;
+    width: 6em;
     margin-top: 0.2em;
 }
 
 nav ul li a:hover {
-    font-weight: bold;
-    color: black;
+    color: white;
+    text-decoration: overline;
+
 }
 
 li#current a {
-    font-weight: bold;
-    text-decoration: underline;
+    color: white;
+    text-decoration: overline;
 }
