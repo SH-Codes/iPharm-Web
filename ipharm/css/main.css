@@ -12,6 +12,12 @@ body {
     position: fixed;
 }
 
+#profile {
+    float: right;
+    margin-top: -3.8em;
+
+}
+
 #searchcontainer {
     height:2em;
     margin-left: 17em;
