@@ -18,6 +18,14 @@ body {
 
 }
 
+#cart {
+    float: right;
+    margin-top: -6.5em;
+    margin-left: 50em;
+
+
+}
+
 #searchcontainer {
     height:2em;
     margin-left: 17em;
