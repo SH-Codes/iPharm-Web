@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/supplier-signup.css"/>
+    <title>iPharm | Sign Up</title>
+    <style>
+        h2 {text-align: center;
+            color: seagreen;
+        }
+
+        fieldset p {
+            text-align: center;
+        }
+
+        p#account { 
+            color: grey; 
+            text-decoration: none;
+        }
+
+        a#signuplink {
+            font-weight:bold; 
+            color: seagreen; 
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav id="nav">
+        <a href="index.html"><img alt="logo" src="img/ipharm-white.svg" width="15%" height="40%"></a>
+    </nav>
+    <div>
+        <article>
+            <form name="myForm" method="post">
+                <fieldset id="signup">
+                    <h2>Sign Up As a Supplier</h2>
+                    <p>Personal Details</p>
+                    <p><label for="FirstName"></label><input size="30" name="FirstName" id="FirstName" placeholder="First Name"></p>
+                    <p><label for="LastName"></label><input size="30" name="LastName" id="LastName" placeholder="Last Name"></p>
+                    <p><label for="Email"></label><input size="30" name="Email" id="Email" placeholder="Email"></p>
+                    <p>Pharmacy Details</p>
+                    <p><label for="PharmacyName"></label><input size="30" name="PharmacyName" id="PharmacyName" placeholder="Pharmacy Name"></p>
+                    <p><label for="PracticeNumber"></label><input size="30" name="PracticeNumber" id="PracticeNumber" placeholder="Practice Number"></p>
+                    <p><label for="Location"></label><input size="30" name="Location" id="Location" placeholder="Location"></p>
+                    <!-- <p><label for="Password"></label><input size="30" type="password" name="Password" id="Password" placeholder="Password"></p> -->
+                    <p><input  id="submit_btn" type="submit" onsubmit="" value="Sign Up"> <input  id="reset_btn" type="reset" value="Reset Form"></p>
+                    <p id="account">Already have an account? <a id="signuplink" href="sign-in.html">Sign in</a></p>
+                </fieldset>
+            </form>
+        </article>
+        <footer>
+            <div id="footer-wrapper">
+              <div>
+                  <h3>Shopping</h3>
+                  <a href="promotions.html">Promotions</a>
+                  <a href="brands.html">Brands</a>
+                  <a href="#">Catergories</a>
+              </div>
+              <div>
+                  <h3>Customer Service</h3>
+                  <a href="#">Returns & Refunds</a>
+                  <a href="#">Delivery Options</a>
+                  <a href="#">Contact Us</a>
+              </div>
+              <div>
+                  <h3>Services</h3>
+                  <a href="#">iPharm Med Pack<a>
+                  <a href="#">Store Locator</a>
+                  <a href="#">Delivery</a>
+              </div>
+              <div>
+                  <h3>About Us</h3>
+                  <a href="#">About iPharm</a>
+                  <a href="#">Become an iPharm Supplier</a>
+                  <a href="#">Become an iPharm Driver</a>
+              </div>
+            </div>
+            <div id="social-container">
+              <h3>Connect with us</h3>
+              <a href="#"><img src="img/facebook-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/instagram-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/twitter-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/tiktok-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/whatsapp-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/youtub-solidblack.svg" alt="" width="10%" height="10%"></a>
+           </div>
+      </footer>  
+    </div>
+</body>
+</html>
