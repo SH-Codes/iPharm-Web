@@ -81,6 +81,15 @@ input {
     cursor: pointer;
 }
 
+/* #next_btn {
+    background: seagreen;
+    border: 1px solid seagreen;
+    color: white;
+    width: 7.8em;
+    margin-right: 1.5em;
+    cursor: pointer;
+} */
+
 #submit_btn :hover {
     font-weight: bold;
 }
@@ -132,7 +141,7 @@ footer {
     width: 19em;
     margin-right: 5em;
     margin-top: -10.1em;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     float: right;
 }
 

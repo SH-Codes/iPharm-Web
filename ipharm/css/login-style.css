@@ -47,6 +47,7 @@ li#current a {
     text-decoration: underline;
 }
 
+
 /* div#wrapper {
     width: 50%;
     height: 50%;
@@ -140,7 +141,7 @@ footer {
     width: 19em;
     margin-right: 5em;
     margin-top: -10.1em;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     float: right;
 }
 
