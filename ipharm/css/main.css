@@ -129,7 +129,6 @@ div article {
     width: 90%;
     margin-left: 4.5em;
     margin-right: 2em;
-
     clear: right;
 }
 
@@ -141,11 +140,7 @@ div#preview a img {
 }
 
 div#preview a img:hover {
-    /* background-color: black;
-    opacity: 0.7;
-    border: 1px solid lightgrey; */
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
 }
 
 footer {
