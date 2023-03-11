@@ -120,29 +120,30 @@ div article {
     border: 1px solid grey;
 }
 
-#heading-container h1, h2 , h3{
+#heading-container {
     width: 95%;
     border-bottom: 1px solid seagreen;
+    margin-bottom: 2em;
+}
+
+#heading-container-item {
+    width: 100%;
+    border-bottom: 1px solid seagreen;
+    margin-bottom: 2em;
 }
 
 #product-container {
     width: 90%;
-    margin-left: 4.5em;
+    margin-left:4em;
     margin-right: 2em;
     clear: right;
-    display: inline-block;
 }
 
-#item-wrapper {
-    width: 30%;
-    height: max-content;
-    border: 1px solid grey;
-    border-radius: 4px;
-    float: left;
-    margin-left: 15em;
+#item-view {
+    display:inline-block;
 }
 
-div#item {
+div#item img{
     width: 30%;
     height: 30%;
     border: 1px solid grey;
@@ -152,7 +153,10 @@ div#item {
     width: 30%;
     height: 30%;
     border: 1px solid grey;
-    margin-left: 15em;
+    float: right;
+    margin-right: 23.5em;
+    margin-top: -20.5em;
+ 
 }
 
 #price-container {
@@ -161,6 +165,17 @@ div#item {
     border: 1px solid grey;
     text-align: center;
     float: right;
+    margin-top: -20.5em;
+    margin-left: 54em;
+}
+
+button.decrement {
+    width: 3em;
+}
+
+button.increment {
+    width: 3em;
+    border-radius: 4px 4px 4px 4px solid grey;
 }
 /* div#preview a img {
     border: 1px solid lightgrey;
