@@ -117,25 +117,25 @@ div article {
     z-index: 500;
     margin-left: 2em;
     margin-top: 16em;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 #heading-container {
     width: 95%;
-    border-bottom: 1px solid seagreen;
+    border-bottom: 1px solid grey;
     margin-bottom: 2em;
 }
 
 #heading-container-item {
     width: 100%;
-    border-bottom: 1px solid seagreen;
+    border-bottom: 1px solid grey;
     margin-bottom: 2em;
 }
 
 #product-container {
     width: 90%;
-    margin-left:4em;
-    margin-right: 2em;
+    margin-left:2em;
+    margin-right: 4em;
     clear: right;
 }
 
@@ -146,37 +146,92 @@ div article {
 div#item img{
     width: 30%;
     height: 30%;
-    border: 1px solid grey;
+    border: 1px solid whitesmoke;
+}
+#similar-products { 
+    width: 21.2em;
+    /* border: 1px solid grey; */
+    margin-left: 25em;
+    margin-top: -8em;
+}
+
+#similar-products p {
+    font-weight: bold;
+}
+
+#similar-products div a img {
+    border: 1px solid whitesmoke;
+    margin-left: 0.3em;
+}
+
+#similar-products div a img:hover {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #item-text {
     width: 30%;
     height: 30%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     float: right;
-    margin-right: 23.5em;
-    margin-top: -20.5em;
+    margin-right: 24.5em;
+    margin-top: -21.5em;
  
 }
 
 #price-container {
     width: 30%;
-    height: 30%;
-    border: 1px solid grey;
+    height: 40%;
+    /* border: 1px solid grey; */
     text-align: center;
     float: right;
-    margin-top: -20.5em;
+    margin-top: -21.5em;
     margin-left: 54em;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 button.decrement {
-    width: 3em;
+    width: 4em;
+    height: 2em;
+    border: 1px solid seagreen;
+    border-radius: 15 1px;
+    margin-bottom: 1em;
+    /* margin-right: 0.2em; */
+}
+
+input.quantity {
+    width: 4em;
+    height: 1.5em;
+    text-align: center;
+    /* margin-right: 0.2em; */
 }
 
 button.increment {
-    width: 3em;
-    border-radius: 4px 4px 4px 4px solid grey;
+    width: 4em;
+    height: 2em;
+    border-radius: 20px 0px 0 20px solid grey;
 }
+
+ button#basket {
+    width: 20em;
+    height: 2.5em;
+    margin-bottom: 1em;
+    color:white;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    background-color: seagreen;
+ }
+
+ button#wishlist {
+    width: 20em;
+    height: 2.5em;
+    color:white;
+    border: none;
+    margin-bottom: 2em;
+    border-radius:20px;
+    cursor: pointer;
+    background-color: seagreen;
+ }
 /* div#preview a img {
     border: 1px solid lightgrey;
     border-radius: 4px;
