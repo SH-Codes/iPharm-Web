@@ -100,6 +100,77 @@ nav ul li a {
     margin-top: 0.2em;
 }
 
+nav ul li ul#submenu-careers {
+    max-width: 100%;
+    min-height: 80%;
+    background-color: seagreen;
+    /* opacity: 0.9; */
+    border-top: 1px solid white;
+    /* display: none; */
+    visibility: hidden;
+    position:absolute;
+    z-index: 999;
+    left: 0em;
+    transition-delay: 300ms;
+}
+
+nav ul li:hover ul#submenu-careers {
+    width: 100%;
+    /* display: block; */
+    visibility: visible;
+    transition-duration: 2s;
+    /* transition-property: all; */
+
+}
+
+
+nav ul li ul#submenu-careers li {
+    display: block;
+    margin-right: -50em;
+    margin-top: 1em;  
+}
+
+nav ul li ul#submenu-careers li a {
+    width: 100%;
+}
+
+nav ul li ul#submenu-catergories {
+    max-width: 100%;
+    min-height: 80%;
+    background-color: seagreen;
+    /* opacity: 0.9; */
+    border-top: 1px solid white;
+    /* display: none; */
+    visibility: hidden;
+    position:absolute;
+    z-index: 999;
+    left: 0em;
+    transition-delay: 300ms;
+}
+
+nav ul li:hover ul#submenu-catergories {
+    width: 100%;
+    /* display: block; */
+    visibility: visible;
+    transition-duration: 2s;
+
+
+}
+
+
+nav ul li ul#submenu-catergories li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 3em;
+    /* margin-right: 3em; */
+    margin-top: 2em;
+}
+
+nav ul li ul#submenu-catergories li a {
+    margin-left: -1em;
+    width: 7em;
+}
+
 nav ul li a:hover {
     color: white;
     text-decoration: overline;
