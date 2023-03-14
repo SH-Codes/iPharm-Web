@@ -66,10 +66,40 @@ fieldset#signup {
    border-radius: 10px;
 }
 
+fieldset#signup-upload {
+    width: 60%;
+    height: 60%;
+    margin-left: 15em;
+    background: white;
+   border:1px solid #c0c0c0;
+   border-radius: 10px;
+}
+
 input {
     height: 2.5em;
     border: 1px solid silver;
     border-radius: 4px;
+}
+
+select option {
+    height: 2.5em;
+}
+
+#prev_btn {
+    background: seagreen;
+    border: 1px solid seagreen;
+    color: white;
+    width: 7.8em;
+    margin-right: 1.5em;
+    cursor: pointer;
+}
+
+#next_btn {
+    background: seagreen;
+    border: 1px solid seagreen;
+    color: white;
+    width: 7.8em;
+    cursor: pointer;
 }
 
 #submit_btn {

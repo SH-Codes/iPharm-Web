@@ -47,17 +47,7 @@ li#current a {
     text-decoration: underline;
 }
 
-
-/* div#wrapper {
-    width: 50%;
-    height: 50%;
-    padding-top: 5.5em;
-    margin-left: 10em;
-    margin-right:12em;
-    float: right;
-    } */
-
-    div article {
+div article {
         width: 95%;
         height: 60%;
         z-index: 500;
@@ -86,7 +76,7 @@ input {
     border: 1px solid seagreen;
     color: white;
     width: 7.8em;
-    margin-right: 1.5em;
+    /* margin-right: 1em; */
     cursor: pointer;
 }
 
