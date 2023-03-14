@@ -81,8 +81,19 @@ input {
     border-radius: 4px;
 }
 
-select option {
+/* input.file {
+    margin-bottom: 1em;
+} */
+
+select#file-type {
     height: 2.5em;
+}
+
+select#vehicle-type {
+    margin-left: 9.5em;
+    width: 17em;
+    height: 2.5em;
+
 }
 
 #prev_btn {
