@@ -206,16 +206,60 @@ div article {
     clear: right;
 }
 
-div#preview a img {
+#product-card {
+    width: 13em;
+    height: 21em;
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 0.5em;
+}
+
+#product-card:hover {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* #product-card a img:hover {
+    opacity: 0.8;
+} */
+
+#product-info {
+    text-align: left;
+    margin-left: 1.5em;
+}
+
+#product-card #add-to-cart {
+    width: 90%;
+    height: 10%;
+    background-color: seagreen;
+    border-radius: 4px;
+    color: white;
+    margin-top: 2.5em;
+    margin-left: 12px;
+}
+
+#add-to-cart p {
+    margin-top: 2em;
+    padding-top: 0.7em;
+}
+
+#add-to-cart:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+div#preview #product-card {
     border: 1px solid lightgrey;
     border-radius: 4px;
     margin-left: 0em;
     margin-bottom: 0.5em;
+    display: inline-block;
 }
 
-div#preview a img:hover {
+/* div#preview a img:hover {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+} */
 
 footer {
     width: 100%;
