@@ -138,10 +138,23 @@ footer {
 }
 
 #social-container {
+    width: 16em;
+    margin-right: 1.9em;
+    margin-top: -10.1em;
+    /* border: 1px solid white; */
+    float: right;
+}
+
+#social-container a img{
+    display: inline-block;
+    margin-right: 0.8em;
+}
+
+/* #social-container {
     width: 19em;
     margin-right: 5em;
     margin-top: -10.1em;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
     float: right;
 }
 
@@ -150,4 +163,4 @@ footer {
     margin-right: 0.5em;
     margin-top: -0.5em;
     clear: right;
-}
+} */

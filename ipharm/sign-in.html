@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/login-style.css"/>
-    <script rels="script" type="text/js" src="js/form-validation.js" defer></script>
     <title>iPharm | Sign In</title>
     <style>
         h2 {text-align: center;
@@ -34,12 +33,12 @@
     </nav>
     <div>
         <article>
-            <form name="myForm"  action="#"  method="post">
+            <form name="myForm" onsubmit="return validateForm()"  action="index.html"  method="post">
                 <fieldset id="signup">
                     <h2>Sign In</h2>
-                    <p><label for="Email"></label><input size="30" name="Email" id="Email" placeholder="Email"></p>
+                    <p><label for="Email"></label><input size="30" type="text" name="Email" id="email" placeholder="Email"></p>
                     <p><label for="Password"></label><input size="30" type="password" name="Password" id="Password" placeholder="Password"></p>
-                    <p><input  id="signin_btn" type="submit" onsubmit="return validateForm()"  value="Sign In"></p>
+                    <p><input  id="signin_btn" type="submit"  value="Sign In"></p>
                     <p><a id="password_reset" href="#">Forgot your password?</a></p>
                     <p id="account">Don't have an account? <a id="signuplink" href="sign-up.html">Sign up</a></p>
                 </fieldset>
@@ -83,5 +82,6 @@
            </div>
       </footer>  
     </div>
+    <script rels="script" type="text/js" src="js/validation.js" ></script>
 </body>
 </html>
