@@ -34,38 +34,42 @@
     </nav>
     <div>
         <article>
-            <div id="accountTabs">
-                <ul>
-                    <li><a>Information</a></li>
-                    <li><a>Address Book</a></li>
-                    <li><a>Orders</a></li>
-                    <li><a>Wishlist</a></li>
-                </ul>
+            <div id="profileEdit">
+                <div id="accountTabs">
+                    <ul>
+                        <li id="current"><a>Personal Information</a></li>
+                        <li><a>Contact Details</a></li>
+                        <li><a>Security</a></li>
+                        <li><a>Address Book</a></li>
+                        <li><a>Orders</a></li>
+                        <li><a>Wishlist</a></li>
+                    </ul>
+                </div>
+                <form name="myForm" onsubmit="return validateForm()"  action="index.html"  method="post">
+                    <fieldset id="signup">
+                        <h2>Personal Information</h2>
+                        <p><label for="firstName"></label><input size="30" type="text" name="firstName" id="firstName" placeholder="First Name"></p>
+                        <p><label for="lastName"></label><input size="30" type="text" name="lastName" id="lastName" placeholder="Last Name"></p>
+                        <p><label for="dateOfBirth"></label><input size="30" type="date" name="dateOfBirth" id="dateOfBirth" placeholder="Date of Birth"></p>
+                        <p><label for="gender"></label><select width="30">
+                            <option>Select Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Rather Not Say</option>
+                        </select></p>
+                        <div id="buttonContainer">
+                            <button id="updateCancel">Cancel</button>
+                            <button id="updateSave" type="submit">Save</button>
+                        </div>
+                        <!-- <p><label for="Email"></label><input size="30" type="text" name="Email" id="email" placeholder="Email"></p>
+                        <p><label for="Password"></label><input size="30" type="password" name="Password" id="Password" placeholder="Password"></p> -->
+                        <!-- <p><input  id="signin_btn" type="submit"  value="Sign In"></p>
+                        <p><a id="password_reset" href="#">Forgot your password?</a></p> -->
+                        <!-- <p id="account">Don't have an account? <a id="signuplink" href="sign-up.html">Sign up</a></p> -->
+                        
+                    </fieldset>
+                </form>
             </div>
-            <form name="myForm" onsubmit="return validateForm()"  action="index.html"  method="post">
-                <fieldset id="signup">
-                    <h2>Sign In</h2>
-                    <p><label for="firstName"></label><input size="30" type="text" name="firstName" id="firstName" placeholder="First Name"></p>
-                    <p><label for="lastName"></label><input size="30" type="text" name="lastName" id="lastName" placeholder="Last Name"></p>
-                    <p><label for="dateOfBirth"></label><input size="30" type="date" name="dateOfBirth" id="dateOfBirth" placeholder="Date of Birth"></p>
-                    <p><label for="gender"></label><select width="30">
-                        <option>Select Gender</option>
-                        <option>Male</option>
-                        <option>Female</option>
-                        <option>Rather Not Say</option>
-                    </select></p>
-                    <div>
-                        <button id="updateCancel">Cancel</button>
-                        <button id="updateSave" type="submit">Save</button>
-                    </div>
-                    <!-- <p><label for="Email"></label><input size="30" type="text" name="Email" id="email" placeholder="Email"></p>
-                    <p><label for="Password"></label><input size="30" type="password" name="Password" id="Password" placeholder="Password"></p> -->
-                    <!-- <p><input  id="signin_btn" type="submit"  value="Sign In"></p>
-                    <p><a id="password_reset" href="#">Forgot your password?</a></p> -->
-                    <!-- <p id="account">Don't have an account? <a id="signuplink" href="sign-up.html">Sign up</a></p> -->
-                    
-                </fieldset>
-            </form>
         </article>
         <footer>
             <div id="footer-wrapper">
