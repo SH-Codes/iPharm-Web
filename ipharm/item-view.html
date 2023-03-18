@@ -73,7 +73,7 @@
                     <div id="price-container">
                         <h1>R 00.00</h1>
                         <p>Quantity</p>
-                        <button class="decrement">-</button><input class="quantity" size="10" name="quantity" value="1"><button class="increment">+</button>
+                        <button id="decrement">-</button><input id="quantity" size="10" name="quantity" value="1"><button id="increment">+</button>
                         <button id="basket">Add to Basket</button>
                         <button id="wishlist">Add to Wishlist</button>
                     </div>
@@ -118,5 +118,17 @@
          </div>
         </footer>
     </div>
+    <script>
+        let count = 1;
+
+document.getElementById("decrement").onclick = function() {
+         count -=1;
+document.getElementById("quantity").innerHTML = count;
+}
+document.getElementById("increment").onclick = function() {
+         count +=1;
+document.getElementById("quantity").innerHTML = count;
+}
+    </script>
 </body>
 </html>

@@ -37,35 +37,57 @@
             <div id="profileEdit">
                 <div id="accountTabs">
                     <ul>
-                        <li id="current"><a>Personal Information</a></li>
-                        <li><a>Contact Details</a></li>
+                        <li><a href="account-personal-info.html">Personal Information</a></li>
+                        <li><a href="account-contact-details.html">Contact Details</a></li>
                         <li><a>Security</a></li>
-                        <li><a>Address Book</a></li>
+                        <li id="current"><a>Address Book</a></li>
                         <li><a>Orders</a></li>
                         <li><a>Wishlist</a></li>
                     </ul>
                 </div>
                 <form name="myForm" onsubmit="return validateForm()"  action="index.html"  method="post">
                     <fieldset id="signup">
-                        <h2>Personal Information</h2>
-                        <p><label for="firstName"></label><input size="30" type="text" name="firstName" id="firstName" placeholder="First Name"></p>
-                        <p><label for="lastName"></label><input size="30" type="text" name="lastName" id="lastName" placeholder="Last Name"></p>
-                        <p><label for="dateOfBirth"></label><input size="30" type="date" name="dateOfBirth" id="dateOfBirth" placeholder="Date of Birth"></p>
-                        <p><label for="gender"></label><select width="30">
-                            <option>Select Gender</option>
-                            <option>Male</option>
-                            <option>Female</option>
-                            <option>Rather Not Say</option>
-                        </select></p>
-                        <div id="buttonContainer">
-                            <button id="updateCancel">Cancel</button>
-                            <button id="updateSave" type="submit">Save</button>
-                        </div>
-                        <!-- <p><label for="Email"></label><input size="30" type="text" name="Email" id="email" placeholder="Email"></p>
-                        <p><label for="Password"></label><input size="30" type="password" name="Password" id="Password" placeholder="Password"></p> -->
-                        <!-- <p><input  id="signin_btn" type="submit"  value="Sign In"></p>
-                        <p><a id="password_reset" href="#">Forgot your password?</a></p> -->
-                        <!-- <p id="account">Don't have an account? <a id="signuplink" href="sign-up.html">Sign up</a></p> -->
+                        <h2>Address Book</h2>
+                        <table>
+                            <caption>Week 1 - Task 4: Basic HTML Table</caption>
+        <tr>
+            <th>Level 1</th>
+            <th>Level 2</th>
+            <th>Level 3</th>
+            <th>Info</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td class="title" rowspan="6">System</td>
+            <td class="title" rowspan="5">System Apps</td>
+            <td class="title" rowspan="4">SystemEnv</td>
+            <td>App Test</td>
+            <td>foo</td>
+        </tr>
+        <tr>
+            <td>App Memory</td>
+            <td>foo</td>
+        </tr>
+        <tr>
+            <td>App Test</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+            <td>App Test</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+            <td>SystemEnv2</td>
+            <td>Memory Func</td>
+            <td>foo</td>
+        </tr>
+        <tr>
+            <td>System Memory</td>
+            <td>Memory Test</td>
+            <td>Apes Test</td>
+            <td>foo</td>
+        </tr>
+                        </table>
                         
                     </fieldset>
                 </form>

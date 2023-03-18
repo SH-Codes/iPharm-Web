@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/account.css"/>
+    <title>iPharm | Sign In</title>
+    <style>
+        h2 {
+            text-align: center;
+            color: seagreen;
+        }
+
+        fieldset p {
+            text-align: center;
+        }
+
+        p#account { 
+            color: grey; 
+            text-decoration: none;
+        }
+
+        a#signuplink {
+            font-weight:bold; 
+            color: seagreen; 
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav id="nav">
+        <a href="index.html"><img alt="logo" src="img/ipharm-white.svg" width="15%" height="40%"></a>
+    </nav>
+    <div>
+        <article>
+            <div id="profileEdit">
+                <div id="accountTabs">
+                    <ul>
+                        <li><a href="account-personal-info.html">Personal Information</a></li>
+                        <li id="current"><a href="account-contact-details.html">Contact Details</a></li>
+                        <li><a>Security</a></li>
+                        <li><a href="account-address.html">Address Book</a></li>
+                        <li><a>Orders</a></li>
+                        <li><a>Wishlist</a></li>
+                    </ul>
+                </div>
+                <form name="myForm" onsubmit="return validateForm()"  action="index.html"  method="post">
+                    <fieldset id="signup">
+                        <h2>Contact Details</h2>
+                        <p><label for="Email"></label><input size="30" type="text" name="Email" id="email" placeholder="Email"></p>
+                        <p><label for="phoneNumber"></label><input size="30" type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone Number"></p>
+                        <p><label for="lastNumber"></label><input size="30" type="text" name="address1" id="address1" placeholder="Street Name"></p>
+                        <p><label for="dateOfBirth"></label><input size="30" type="text" name="city" id="city" placeholder="City"></p>
+                        <p><label for="dateOfBirth"></label><input size="30" type="text" name="city" id="city" placeholder="Zip Code"></p>
+                        <!-- <p><label for="gender"></label><select width="30">
+                            <option>Select Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Rather Not Say</option>
+                        </select></p> -->
+                        <div id="buttonContainer">
+                            <button id="updateCancel">Cancel</button>
+                            <button id="updateSave" type="submit">Save</button>
+                        </div>
+                        <!-- <p><label for="Email"></label><input size="30" type="text" name="Email" id="email" placeholder="Email"></p>
+                        <p><label for="Password"></label><input size="30" type="password" name="Password" id="Password" placeholder="Password"></p> -->
+                        <!-- <p><input  id="signin_btn" type="submit"  value="Sign In"></p>
+                        <p><a id="password_reset" href="#">Forgot your password?</a></p> -->
+                        <!-- <p id="account">Don't have an account? <a id="signuplink" href="sign-up.html">Sign up</a></p> -->
+                        
+                    </fieldset>
+                </form>
+            </div>
+        </article>
+        <footer>
+            <div id="footer-wrapper">
+              <div>
+                  <h3>Shopping</h3>
+                  <a href="promotions.html">Promotions</a>
+                  <a href="brands.html">Brands</a>
+                  <a href="#">Catergories</a>
+              </div>
+              <div>
+                  <h3>Customer Service</h3>
+                  <a href="#">Returns & Refunds</a>
+                  <a href="#">Delivery Options</a>
+                  <a href="#">Contact Us</a>
+              </div>
+              <div>
+                  <h3>Services</h3>
+                  <a href="#">iPharm Med Pack<a>
+                  <a href="#">Store Locator</a>
+                  <a href="#">Delivery</a>
+              </div>
+              <div>
+                  <h3>About Us</h3>
+                  <a href="#">About iPharm</a>
+                  <a href="supplier-signup.html">Become an iPharm Supplier</a>
+                  <a href="diver-signup.html">Become an iPharm Driver</a>
+              </div>
+            </div>
+            <div id="social-container">
+              <h3>Connect with us</h3>
+              <a href="#"><img src="img/facebook-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/instagram-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/twitter-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/tiktok-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/whatsapp-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/youtub-solidblack.svg" alt="" width="10%" height="10%"></a>
+           </div>
+      </footer>  
+    </div>
+    <script rels="script" type="text/js" src="js/validation.js" ></script>
+</body>
+</html>

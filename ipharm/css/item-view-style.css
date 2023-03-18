@@ -260,7 +260,7 @@ div#item img{
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-button.decrement {
+#decrement {
     width: 4em;
     height: 2em;
     /* border: 1px solid seagreen;
@@ -269,14 +269,14 @@ button.decrement {
     /* margin-right: 0.2em; */
 }
 
-input.quantity {
+#quantity {
     width: 4em;
     height: 1.5em;
     text-align: center;
     /* margin-right: 0.2em; */
 }
 
-button.increment {
+#increment {
     width: 4em;
     height: 2em;
     border-radius: 20px 0px 0 20px solid grey;
