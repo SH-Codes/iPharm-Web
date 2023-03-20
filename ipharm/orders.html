@@ -39,19 +39,25 @@
                     <ul>
                         <li><a href="account-personal-info.html">Personal Information</a></li>
                         <li><a href="account-contact-details.html">Contact Details</a></li>
-                        <li><a>Security</a></li>
-                        <li id="current"><a>Address Book</a></li>
-                        <li><a>Orders</a></li>
-                        <li><a>Wishlist</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Address Book</a></li>
+                        <li id="current"><a href="orders.html">Orders</a></li>
+                        <li><a href="#">Wishlist</a></li>
                     </ul>
                 </div>
                 <form name="myForm" onsubmit="return validateForm()"  action="index.html"  method="post">
                     <fieldset id="signup">
                         <h2>Orders</h2>
-                        <div>
-                            <a><img>Item</a>
-                            <p>23 March 2023</p>
-                            <p>Price</p>
+                        <div id="orderHistory">
+                            <div>
+                                <a href="item-view.html"><img src="img/ipharm-01.jpg" alt="item" width="10%" height="10"></a>
+                            </div>
+                            <div id="productDescription">
+                                <p>Product Name<br><span>Product Description</span></p>
+                            </div>
+                            <div id="productPrice">
+                                <p>R0.00</p>
+                            </div>
                         </div>
                         
                         

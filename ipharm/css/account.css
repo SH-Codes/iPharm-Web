@@ -179,6 +179,66 @@ a#password_reset {
     
 }
 
+#orderHistory{
+    border: 1px solid;
+    width: 90%;
+    display: inline-block;
+    align-content: center;
+}
+
+
+
+#orderHistory p{
+   margin-right: 4em;
+   margin-left: 2em;
+    
+}
+
+#orderHistory a img {
+    border: 1px solid;
+    border-radius: 4px;
+    width: 10%;
+    height: 20%;
+}
+
+
+#productDescription {
+    border: 1px solid;
+    width: 12em;
+    height: 2.5em;
+    margin-left: 3.8em;
+    margin-top: -3em;
+    text-align: left;
+    
+ 
+ }
+
+#productDescription p {
+   font-size: small;
+   margin-top: 0em;
+
+}
+
+#productDescription p span {
+    color: grey;
+
+}
+
+#productPrice {
+    border: 1px solid;
+    width: 4em;
+    height: 2.5em;
+    margin-left: 7em;
+    float: right;
+    margin-top: -2.8em;
+}
+
+#productPrice p {
+    margin-left: 0;
+    margin-top: 0.5em;
+}
+
+
 #reset_btn :hover {
     font-weight: bold;
 }
