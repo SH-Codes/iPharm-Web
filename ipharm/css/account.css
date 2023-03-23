@@ -180,10 +180,11 @@ a#password_reset {
 }
 
 #orderHistory{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 90%;
     display: inline-block;
     align-content: center;
+    margin-left: 1.4em;
 }
 
 
@@ -203,7 +204,7 @@ a#password_reset {
 
 
 #productDescription {
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 12em;
     height: 2.5em;
     margin-left: 3.8em;
@@ -216,6 +217,7 @@ a#password_reset {
 #productDescription p {
    font-size: small;
    margin-top: 0em;
+   text-align: left;
 
 }
 
@@ -226,7 +228,7 @@ a#password_reset {
 
 #productPrice {
     border: 1px solid;
-    width: 4em;
+    width: 5em;
     height: 2.5em;
     margin-left: 7em;
     float: right;
@@ -236,8 +238,15 @@ a#password_reset {
 #productPrice p {
     margin-left: 0;
     margin-top: 0.5em;
+    font-size: small;
 }
 
+#productPrice p span {
+    color: grey;
+    margin-left: 0;
+    width: 1em;
+
+}
 
 #reset_btn :hover {
     font-weight: bold;
