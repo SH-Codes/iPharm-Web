@@ -20,13 +20,17 @@ document.addEventListener("click", (event)=>{
 function onSuccess(input){
     let parent = email.parentElement;
         let messageEle = parent.querySelector("small");
-        messageEle.style.visibility = "hidden";
-        messageEle.innerText = "";
+        if (messageEle) { // check if messageEle is not null
+            messageEle.style.visibility = "hidden";
+            messageEle.innerText = "";
+          }
 }
 
-function onError(input){
+function onError(input, errorMessage){
     let parent = email.parentElement;
         let messageEle = parent.querySelector("small");
-        messageEle.style.visibility = "visible";
-        messageEle.innerText = "Email cannot be empty";
+        if (messageEle) { // check if messageEle is not null
+            messageEle.style.visibility = "visible";
+            messageEle.innerText = errorMessage;
+          }
 }
