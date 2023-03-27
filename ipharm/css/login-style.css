@@ -71,12 +71,27 @@ input {
     border-radius: 4px;
 }
 
+.formControl {
+    display: block;
+    /* margin-bottom: 1em; */
+}
+
+.formControl small {
+    font-size: x-small;
+    display: block;
+    margin: -1em 0 0 12.5em;
+    color: red;
+    visibility: hidden;
+}
+
 #signin_btn {
     background: seagreen;
-    border: 1px solid seagreen;
+    border: 1px solid seagreen;;
+    border-radius: 4px;
     color: white;
     width: 7.8em;
-    /* margin-right: 1em; */
+    height: 2.5em;
+    margin-left: 14.5em;
     cursor: pointer;
 }
 
