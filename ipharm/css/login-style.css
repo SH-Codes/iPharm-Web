@@ -71,18 +71,18 @@ input {
     border-radius: 4px;
 }
 
-.formControl {
+.inputControl {
     display: block;
     /* margin-bottom: 1em; */
 }
 
-.formControl small {
+/* .inputControl small {
     font-size: x-small;
     display: block;
     margin: -1em 0 0 12.5em;
     color: red;
     visibility: hidden;
-}
+} */
 
 #signin_btn {
     background: seagreen;
@@ -106,6 +106,16 @@ a#password_reset {
     
 }
 
+.formControl.onSuccess input {
+    border: 1px solid seagreen;
+
+}
+
+.formControl.onError input {
+    border: 1px solid red;
+
+}
+ 
 #reset_btn :hover {
     font-weight: bold;
 }
