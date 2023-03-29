@@ -16,7 +16,7 @@ const setError = (element, message) => {
     inputControl.classList.remove('success');
 };
 
-const setSucces = element => {
+const setSuccess = element => {
     const inputControl = element.parentElement;
     const errorMessage = inputControl.querySelector('.error');
 

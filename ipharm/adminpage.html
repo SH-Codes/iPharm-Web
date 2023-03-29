@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/add-product.css"/>
+    <!-- <script defer src="js/validation.js"></script> -->
+    <title>iPharm | Sign In</title>
+    <style>
+        h2 {text-align: center;
+            color: seagreen;
+        }
+
+        fieldset p {
+            text-align: center;
+        }
+
+        p#account { 
+            color: grey; 
+            text-decoration: none;
+        }
+
+        a#signuplink {
+            font-weight:bold; 
+            color: seagreen; 
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <?php include 'config.php';?>
+    <nav id="nav">
+        <a href="index.html"><img alt="logo" src="img/ipharm-white.svg" width="15%" height="40%"></a>
+    </nav>
+    <div>
+        <article>
+            <form  id="form" name="myForm"  action="process.php"   method="post" enctype="multipart/form-data">
+                <fieldset id="signup">
+                    <h2>Add New Product</h2>
+                    <div class="input-control">
+                        <p><label for="productId"></label><input size="30" type="text" name="productId" id="productId" placeholder="Enter product Id"></p>
+                        <div class="error" ></div>
+                    </div>
+                    <div class="input-control">
+                        <p><label for="productName"></label><input size="30" type="text" name="productName" id="productName" placeholder="Enter product name"></p>
+                        <div class="error" ></div>
+                    </div>
+                    <div class="input-control">
+                        <p><label for="productPrice"></label><input size="30" type="text" name="productPrice" id="productPrice" placeholder="Product price"></p>
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <p><label for="productDescrption"></label><input size="30" type="text" name="productDescrption" id="productDescrption" placeholder="Product Descrption"></p>
+                        <div class="error"></div>
+                    </div>
+                    <div class="catergoryContainer">
+                        <select id="catergory">
+                            <option>Choose Catergory</option>
+                            <option>Baby</option>
+                            <option>Beauty</option>
+                            <option>Hair</option>
+                            <option>Household</option>
+                            <option>Personal Care</option>
+                        </select>
+                    </div>
+                    <div class="input-control">
+                        <p><label for="productImage"></label><input size="30" type="file" accept="image/png, image/jpeg, image/jpg" name="productImage" id="productImage"></p>
+                        <div class="error"></div>
+                    </div>
+                    <button id="addProduct_btn" type="submit" >Add Product</button>
+                </fieldset>
+            </form>
+        </article>
+        <footer>
+            <div id="footer-wrapper">
+              <div>
+                  <h3>Shopping</h3>
+                  <a href="promotions.html">Promotions</a>
+                  <a href="brands.html">Brands</a>
+                  <a href="#">Catergories</a>
+              </div>
+              <div>
+                  <h3>Customer Service</h3>
+                  <a href="#">Returns & Refunds</a>
+                  <a href="#">Delivery Options</a>
+                  <a href="#">Contact Us</a>
+              </div>
+              <div>
+                  <h3>Services</h3>
+                  <a href="#">iPharm Med Pack<a>
+                  <a href="#">Store Locator</a>
+                  <a href="#">Delivery</a>
+              </div>
+              <div>
+                  <h3>About Us</h3>
+                  <a href="#">About iPharm</a>
+                  <a href="supplier-signup.html">Become an iPharm Supplier</a>
+                  <a href="diver-signup.html">Become an iPharm Driver</a>
+              </div>
+            </div>
+            <div id="social-container">
+              <h3>Connect with us</h3>
+              <a href="#"><img src="img/facebook-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/instagram-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/twitter-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/tiktok-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/whatsapp-solidblack.svg" alt="" width="10%" height="10%"></a>
+              <a href="#"><img src="img/youtub-solidblack.svg" alt="" width="10%" height="10%"></a>
+           </div>
+      </footer>  
+    </div>
+</body>
+</html>
