@@ -90,7 +90,7 @@ input {
     visibility: hidden;
 } */
 
-select#catergory {
+select#category {
     height: 2.5em;
     width: 17.5em;
 }
@@ -99,7 +99,7 @@ select#catergory {
     width: 17.5em;
 }
 
-.catergoryContainer {
+.categoryContainer {
     margin-left: 7.7em;
 }
 

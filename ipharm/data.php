@@ -8,7 +8,6 @@ if (isset($_POST['add_product'])) {
     $productName = $_POST['productName'];
     $productPrice = $_POST['productPrice'];
     $productDescription = $_POST['productDescription'];
-
     $productImage = $_FILES['productImage']['name'];
     $productImageTmpName = $_FILES['productImage']['tmp_name'];
     $productImageFolder = 'img/' . $productImage;

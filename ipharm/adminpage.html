@@ -34,7 +34,7 @@
     </nav>
     <div>
         <article>
-            <form  id="form" name="myForm"  action="process.php"   method="post" enctype="multipart/form-data">
+            <form  id="form" name="myForm"  action="add-products.php"   method="post" enctype="multipart/form-data">
                 <fieldset id="signup">
                     <h2>Add New Product</h2>
                     <div class="input-control">
@@ -50,18 +50,22 @@
                         <div class="error"></div>
                     </div>
                     <div class="input-control">
-                        <p><label for="productDescrption"></label><input size="30" type="text" name="productDescrption" id="productDescrption" placeholder="Product Descrption"></p>
+                        <p><label for="productDescription"></label><input size="30" type="text" name="productDescription" id="productDescription" placeholder="Product Descrption"></p>
                         <div class="error"></div>
                     </div>
-                    <div class="catergoryContainer">
-                        <select id="catergory">
-                            <option>Choose Catergory</option>
-                            <option>Baby</option>
-                            <option>Beauty</option>
-                            <option>Hair</option>
-                            <option>Household</option>
-                            <option>Personal Care</option>
+                    <div class="categoryContainer">
+                        <select id="category">
+                            <option value="">-Choose Category-</option>
+                            <option value="Baby">Baby</option>
+                            <option value="Beauty">Beauty</option>
+                            <option value="Hair">Hair</option>
+                            <option value="Household">Household</option>
+                            <option value="Personal Care">Personal Care</option>
                         </select>
+                    </div>
+                    <div class="input-control">
+                        <p><label for="categoryId"></label><input size="30" type="text" name="categoryId" id="categoryId" placeholder="Category Id"></p>
+                        <div class="error"></div>
                     </div>
                     <div class="input-control">
                         <p><label for="productImage"></label><input size="30" type="file" accept="image/png, image/jpeg, image/jpg" name="productImage" id="productImage"></p>

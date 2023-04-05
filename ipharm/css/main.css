@@ -194,12 +194,12 @@ div article {
 }
 
 #heading-container {
-    width: 95%;
+    width: 90%;
     border-bottom: 1px solid grey;
 }
 
 #product-container {
-    width: 90%;
+    width: 95%;
     margin-left: 4.2em;
     margin-right: 2em;
     clear: right;
@@ -317,5 +317,161 @@ footer {
 #social-container a img{
     display: inline-block;
     margin-right: 0.8em;
+
 }
 
+@media only screen and (max-width: 768px) {
+
+    #banner {
+      height: 6em;
+      margin-top: -10em;
+    }
+  
+    #searchcontainer {
+      margin-left: -2em;
+    }
+  
+    #nav {
+      margin-top: 6em;
+    }
+  
+    #nav {
+      height: 3em;
+    }
+  
+    nav ul {
+      margin-top: 0.8em;
+    }
+
+    nav ul li {
+      margin-left: 1em;
+    }
+  
+    nav ul li a {
+      width: 5em;
+    }
+  
+    #product-card {
+      width: 11em;
+    }
+  
+    #product-card {
+      height: 18em;
+    }
+  
+    #product-container {
+      margin-left: 2em;
+    }
+  
+  
+    #product-info {
+      margin-left: 0.8em;
+    }
+    
+  }
+  
+
+@media only screen and (max-width: 480px) {
+
+    #banner {
+        height: 6em;
+        margin-top: -10em;
+    }
+
+    #home-icon {
+        margin-top: 2.5em;
+        margin-left: 1em;
+    }
+
+    #profile {
+        margin-right: -18em;
+        margin-top: 0.5em;
+    }
+
+    #cart {
+        margin-top: -1.5em;
+        margin-right: -20em;
+    }
+
+    #searchcontainer {
+        height:2.5em;
+        margin-left: -3em;
+        margin-top: 2.3em;
+        margin-bottom: 2em;
+    }
+
+    input.search {
+        height: 2.5em;
+        border-bottom: 1px solid grey;
+        font-size: 1.2em;
+    }
+
+    input.search::placeholder {
+        font-size: 1.2em;
+        margin-top: 0.2em;
+    }
+
+    button.searchbtn {
+        width: 5em;
+        height: 2.6em;
+        font-size: 1.2em;
+    }
+
+    #nav {
+        height: 3.5em;
+        margin-top: 6.5em;
+    }
+
+    nav ul {
+        height:2.5em;
+        margin-top: 0.8em;
+    }
+
+    nav ul li {
+        margin-left: 1em;
+    }
+
+    nav ul li a {
+        width: 5em;
+        margin-top: 0.2em;
+        font-size: 1.1em;
+    }
+
+    nav ul li ul#submenu-careers {
+        min-height: 60%;
+    }
+
+    nav ul li ul#submenu-careers li {
+        margin-top: 0.5em;  
+    }
+
+    nav ul li ul#submenu-catergories {
+        min-height: 60%;
+    }
+
+    nav ul li ul#submenu-catergories li {
+        margin-left: 0.5em;
+        margin-right: 1.5em;
+        margin-top: 1em;
+    }
+
+    #product-container {
+        margin-left: 1.5em;
+        margin-right: 1em;
+    }
+
+    #product-card {
+        width: 10em;
+        height: 16em;
+    }
+
+    #product-info {
+        margin-left: 0.8em;
+    }
+
+    #product-card #add-to-cart {
+        height: 8%;
+        font-size: 0.9em;
+    }
+
+}
