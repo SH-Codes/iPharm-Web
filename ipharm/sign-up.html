@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/signup-style.css"/>
-    <script rels="script" type="text/js" src="js/form-validation.js" defer></script>
+    <!-- <script rels="script" type="text/js" src="js/form-validation.js" defer></script> -->
     <title>iPharm | Sign Up</title>
     <style>
         h2 {text-align: center;
@@ -34,14 +34,15 @@
     </nav>
     <div>
         <article>
-            <form name="myForm" method="post">
+            <form name="myForm" action="adduser.php" method="post">
                 <fieldset id="signup">
                     <h2>Sign Up</h2>
-                    <p><label for="Email"></label><input size="30" name="FirstName" id="FirstName" placeholder="First Name"></p>
-                    <p><label for="Email"></label><input size="30" name="LastName" id="LastName" placeholder="Last Name"></p>
-                    <p><label for="Email"></label><input size="30" name="Email" id="Email" placeholder="Email"></p>
-                    <p><label for="Password"></label><input size="30" type="password" name="Password" id="Password" placeholder="Password"></p>
-                    <p><input  id="submit_btn" type="button"  value="Sign Up"> <input  id="reset_btn" type="reset" value="Reset Form"></p>
+                    <p><label for="firstName"></label><input size="30" name="firstName" id="firstName" placeholder="First Name"></p>
+                    <p><label for="lastName"></label><input size="30" name="lastName" id="lastName" placeholder="Last Name"></p>
+                    <p><label for="email"></label><input size="30" name="email" id="email" placeholder="Email"></p>
+                    <p><label for="userPassword"></label><input size="30" type="password" name="userPassword" id="userPassword" placeholder="Password"></p>
+                    <p><label for="userPasswordConfirm"></label><input size="30" type="password" name="userPasswordConfirm" id="userPasswordConfirm" placeholder="Confirm Password"></p>
+                    <p><input  id="submit_btn" type="submit"  value="Sign Up"> <input  id="reset_btn" type="reset" value="Reset Form"></p>
                     <p id="account">Already have an account? <a id="signuplink" href="sign-in.html">Sign in</a></p>
                 </fieldset>
             </form>
