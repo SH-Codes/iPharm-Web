@@ -367,6 +367,10 @@ footer {
     background-color: #222;
     left: 24px;
 }
+#cartWrapper{
+    margin-top: 3.5em;
+}
+
 
 
 @media only screen and (max-width: 768px) {

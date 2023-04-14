@@ -1,0 +1,60 @@
+
+  h1, h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+#cartWrapper{
+    margin-top: 3.5em;
+}
+
+  table {
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  td, th {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  td input {
+    width: 50px;
+  }
+  
+  td button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+  }
+  
+  td button:hover {
+    cursor: pointer;
+    background-color: #c62828;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  #checkout_btn {
+    background: seagreen;
+    border: 1px solid seagreen;
+    color: white;
+    width: 12em;
+    height: 2.5em;
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+    cursor: pointer;
+  } 
