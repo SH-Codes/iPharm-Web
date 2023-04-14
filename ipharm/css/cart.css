@@ -5,7 +5,7 @@
   }
   
 #cartWrapper{
-    margin-top: 3.5em;
+    margin-top: 3.2rem;
 }
 
   table {
@@ -51,6 +51,7 @@
   #checkout_btn {
     background: seagreen;
     border: 1px solid seagreen;
+    border-radius: 4px;
     color: white;
     width: 12em;
     height: 2.5em;
