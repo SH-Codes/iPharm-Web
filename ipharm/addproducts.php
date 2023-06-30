@@ -4,6 +4,7 @@ $productName = $_POST['productName'];
 $productPrice = $_POST['productPrice'];
 $productDescription = $_POST['productDescription'];
 $category = $_POST['category'];
+
 // $categoryId = $_POST['categoryId'];
 $productImage = $_FILES['productImage']['name'];
 $productImageTmpName = $_FILES['productImage']['tmp_name'];
@@ -17,6 +18,7 @@ $dbname = "ipharm";
 
 // Create connection
 $conn = new mysqli ($servername, $username, $password, $dbname);
+
 // Check connection
 if (!$conn -> connect_error) {
     die("Connection failed: " .$conn->connect_error);
@@ -28,7 +30,5 @@ if (!$conn -> connect_error) {
     echo "Product Successfully Added...";
     $stmt->close();
     $conn-> close();
-
 }
-
 ?> 
